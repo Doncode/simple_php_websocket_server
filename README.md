@@ -1,4 +1,4 @@
-simple_websoket_server
+simple php websoket server
 ======================
 
 Цель данного проекта создать простой websoket server на PHP.
