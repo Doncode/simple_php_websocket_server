@@ -11,7 +11,7 @@ simple_websoket_server
 Как использовать
 ======================
 Запустить можно набрав в консоле 
-php ПУТЬ_К_ФАЙЛУ/demon.php
++ php ПУТЬ_К_ФАЙЛУ/demon.php
 вебсокет сервер запутиться на порту 888 
 порт можно изменить в файле demon.php
 
@@ -20,8 +20,8 @@ php ПУТЬ_К_ФАЙЛУ/demon.php
 ======================
 Открываем файл use.php
 Внутри этого файла 4 функции
-function websocket_onopen($keyINsock) - выполняеться когда произошло подключение нового клиента
-function websocket_onmessage($keyINsock, $str) - выполняеться при получении сообщения от браузера
-function websocket_onclose($keyINsock) - при закрытии сокета
-function websocket_while() - выполняеться при каждой итерации цикла (постоянно даже если нет событий)
++ function websocket_onopen($keyINsock) - выполняеться когда произошло подключение нового клиента
++ function websocket_onmessage($keyINsock, $str) - выполняеться при получении сообщения от браузера
++ function websocket_onclose($keyINsock) - при закрытии сокета
++ function websocket_while() - выполняеться при каждой итерации цикла (постоянно даже если нет событий)
 
