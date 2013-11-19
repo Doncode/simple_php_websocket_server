@@ -1,4 +1,5 @@
 <?php
+//do not change this file
 
 register_shutdown_function('shutdown_php');
 function shutdown_php() {
@@ -6,7 +7,6 @@ function shutdown_php() {
 	echo "\r\n========= SHUTDOWN_PHP ==================\r\n";
 	shutdownSev($mainSocket, $sock);
 }
-
 
 
 function websock_start($address, $port) {
