@@ -45,5 +45,3 @@ function websocket_while(){
 	//echo '.';
 }
 
-
-
